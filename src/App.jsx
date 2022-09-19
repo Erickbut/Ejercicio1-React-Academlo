@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import QuoteBox from './components/QuoteBox'
-//import Guillement from './components/Guillement'
+import Guillement from './components/Guillement'
 import quotes from './json/quotes.json'
 import color from './utils/color'
 
@@ -30,13 +30,16 @@ function App() {
 
   return (
     <div style={backgroundObject} className="App">
+      <h1><Guillement
+      /></h1>
       <QuoteBox
         randomQuote={randomQuote}
         randomColor={randomColor}
         getRandomAll={getRandomAll}
       />
-    
+
     </div>
+
   )
 }
 

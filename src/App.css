@@ -47,7 +47,9 @@ p,h1{
   transform: scale(1.05);
   transition: filter 100ms ease, transform 100ms ease;
 }
-.card_guille{
+.guilleStyle{
   font-style: italic;
   color: bisque;
+  width: 100%;
+  flex-direction: column;
 }
